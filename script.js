@@ -22,13 +22,14 @@ function moverBoton() {
         "POFIIII "
     ];
     
-    const imagenes = [
-        "C:/Users/castr/Documents/san valentin/imagenes ocupadas/gato-depresivo-triste.jpg",
-        "C:/Users/castr/Documents/san valentin/imagenes ocupadas/hamster triste.jpg",
-        "C:/Users/castr/Documents/san valentin/imagenes ocupadas/gato trite.jpg",
-        "C:/Users/castr/Documents/san valentin/imagenes ocupadas/si.jpg",
-        "C:/Users/castr/Documents/san valentin/imagenes ocupadas/llanto.jpg"
-    ];
+   const imagenes = [
+    "imagenes/gato-depresivo-triste.jpg",
+    "imagenes/hamster-triste.jpg",
+    "imagenes/gato-triste.jpg",
+    "imagenes/si.jpg",
+    "imagenes/llanto.jpg"
+];
+
 
     // Elegir un mensaje e imagen aleatoria
     let index = Math.floor(Math.random() * frases.length);
